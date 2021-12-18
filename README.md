@@ -2,22 +2,17 @@
 
 ## Foreword
 
-This library has been forked from the original repository due to the fact it was deprecated in favor of Discord's GameSDK. [Learn more here](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide) - which is not open source.
-
----
+This repository has been forked from the original due to the fact it was deprecated in favor of [Discord's GameSDK](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide) - which is not open source.
 
 This is a library for interfacing your game with a locally running Discord desktop client. It's known to work on Windows, macOS, and Linux. You can use the lib directly if you like, or use it as a guide to writing your own if it doesn't suit your game as is. PRs/feedback welcome if you have an improvement everyone might want, or can describe how this doesn't meet your needs.
 
-Included here are some quick demos that implement the very minimal subset to show current status, and
-have callbacks for where a more complete game would do more things (joining, spectating, etc).
+Included here are some quick demos that implement the very minimal subset to show current status, and have callbacks for where a more complete game would do more things (joining, spectating, etc).
 
 ## Documentation
 
-The most up to date documentation for Rich Presence can always be found on our [developer site](https://discordapp.com/developers/docs/rich-presence/how-to)! If you're interested in rolling your own native implementation of Rich Presence via IPC sockets instead of using our SDK—hey, you've got free time, right?—check out the ["Hard Mode" documentation](https://github.com/discordapp/discord-rpc/blob/master/documentation/hard-mode.md).
+The most up to date documentation for Rich Presence can always be found on Discord's [developer site](https://discordapp.com/developers/docs/rich-presence/how-to)! If you're interested in rolling your own native implementation of Rich Presence via IPC sockets instead of using Discord's SDK—hey, you've got free time, right? Check out the ["Hard Mode" documentation](https://github.com/discordapp/discord-rpc/blob/master/documentation/hard-mode.md).
 
 ## Basic Usage
-
-Zeroith, you should be set up to build things because you are a game developer, right?
 
 First, head on over to the [Discord developers site](https://discordapp.com/developers/applications/me) and make yourself an app. Keep track of `Client ID` -- you'll need it here to pass to the init function.
 
