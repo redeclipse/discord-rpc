@@ -1,8 +1,8 @@
 # Discord RPC
 
-## Deprecation Notice
+## Foreword
 
-This library has been deprecated in favor of Discord's GameSDK. [Learn more here](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide)
+This library has been forked from the original repository due to the fact it was deprecated in favor of Discord's GameSDK. [Learn more here](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide) - which is not open source.
 
 ---
 
